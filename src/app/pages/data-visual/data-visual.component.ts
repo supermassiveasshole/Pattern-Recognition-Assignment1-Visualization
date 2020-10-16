@@ -18,6 +18,7 @@ export class DataVisualComponent implements OnInit {
   private lineData = (line as any).default as number[][];
   private irisData: ScatterDataItem[] = [];
   private dividingLine = [];
+  
   constructor() {
 
   }
